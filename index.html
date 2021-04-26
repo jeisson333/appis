@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>Venta de motos</title>
+        <link href="css/estilosp.css" type="text/css" rel="stylesheet">
+           
+    </head>
+    <body class="cuerpo">
+        <!--<figure>
+            <img src="../img/iconomoto.png" alt="motooo">
+            
+           </figure>-->
+        <header>
+  
+          <h1 >VENTA DE MOTOS</h1>
+          <H3>Motos a tu nivel</H3>
+  
+        </header>
+        <nav>
+          <label>Pais: </label>
+      <select  id="menuu" onchange="principal()">
+        <option>Seleccione el Pais</option>
+          <option value="Col">Colombia</option>
+          <option value="Bra">Brasil</option>
+          <option value="Arg">Argentina</option>
+                  <option value="Per">Perú</option>
+          <option value="Chi">Chile</option>
+          <option value="Ecu">Ecuador</option>
+                  <option value="Ven">Venezuela</option>
+          <option value="Bol">Bolivia</option>
+          <option value="Urg">Uruguay</option>
+                  <option value="Par">Paraguay</option>
+      </select>
+      <a href="#"><div id="google_translate_element"></div></a>
+          
+        </nav>
+        <script type="text/javascript">
+            function googleTranslateElementImit(){
+                new google.translate.TranslateElement({pageLanguage: 'es',layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, "google_translate_element");
+            }
+
+
+
+
+        </script>
+        
+        <div id="wrapperr">
+          <section>
+            <article id="columna1">
+                <h5  class="Nombre">Nombre: </h5>
+                <span  class="Temact">Temperatura Actual: <br></span>
+                <span  class="Temmin">Temperatura Minuma: <br> </span>
+                <span class="Temmax">Temperatura Maxima <br></span>
+                <span  class="Estado">Estado: <br></span>
+                
+
+
+                
+            </article>
+            <article id="columna2">
+                <h5  class="NombP">Pais: </h5>
+                <span  class="Cap">Capital: <br></span>
+                <span  class="Codp">Codigo Pais: <br> </span>
+                <span class="Pobl">Población <br></span>
+                <span  class="Regio">Region: : <br></span>  
+                <div class="ImgP"></div>          
+              
+            </article>
+  
+            <article id="columna3">
+                <div id="map"></div>
+        <script src="js/main.js" ></script> 
+           <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+           
+            </article>
+          </section>
+  
+          
+        </div>
+        
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementImit"></script>
+      </body>
+
+
+</html>

@@ -1,0 +1,134 @@
+*
+{
+	margin:0;
+
+}
+#map {
+	height: 350px;
+	width: 98%;
+}
+
+footer {
+	font-size: 0.8em;
+	border-top: solid 2px #1f47a8;
+	padding-top: 1vw;
+	margin-top: 1vw;
+	text-align: center;
+}
+figure{
+	display: block;
+	float: left;
+}
+iframe{
+	height: 400px;
+}
+body{
+	
+	background: #f2f2f2;
+	color: black;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+.goog-te-banner-frame{
+	display: none;
+}
+h2{
+	background-color: #332E33;
+	text-align: center;
+	padding: 10px;
+}
+#motoss
+{
+	position: 1px 1px;
+}
+
+#wrapperr
+{
+	width: 960px;
+	margin: 0 auto;
+}
+
+header
+{
+	margin: 0 auto;
+	height: 5em;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	text-align: center;
+	background-color: grey;
+	color:white;
+}
+
+article
+{
+	box-sizing: border-box;
+	float:left;
+	height: 100%;
+	background-color: grey;
+	padding: 2%;
+	text-align: center;
+	height: 400px;
+}
+
+	#columna1
+	{
+	background-color: #91C9E8;
+	width: 50%;
+	height: 500px;
+
+	}
+	#columna2
+	{
+	background-color: #D1D1D1;
+	width: 50%;
+	height: 500px;
+	}
+	#columna3
+	{
+	background-color: #3399CC;
+	width: 100%;
+	}
+
+@media screen and (max-width: 960px){
+
+	#wrapperr
+	{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 640px){
+
+	#wrapperr
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 480px){
+
+#wrapperr
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	#columna1
+	{
+	width: 100%;
+	}
+	#columna2
+	{
+	width: 100%;
+	}
+	#columna3
+	{
+	width: 100%;
+	}
+
+	header
+	{
+	width:100%;
+	}
+}
