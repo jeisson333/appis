@@ -3,27 +3,7 @@ function principal(){
     var menuu = document.getElementById('menuu');
     var pais = menuu.value;
 
-    var latCol = 4.0265139;
-    var lngCol = -74.0107649;
-    var latBra = -8.6004423;
-    var lngBra = -56.9893424;
-    var latArg = -37.2325073;
-    var lngArg = -67.6448581;
-    var latPer = -11.0428329;
-    var lngPer = -79.5062286;
-    var latChi = -27.247097;
-    var lngChi = -74.0681202;
-    var latEcu = -1.8303686;
-    var lngEcu = -79.6934167;
-    var latVen = 6.0613943;
-    var lngVen = -65.8191001;
-    var latBol = -17.0922345;
-    var lngBol = -65.025685;
-    var latUrg = -33.5149723;
-    var lngUrg = -55.6046421;
-    var latPar = -24.0576182;
-    var lngPar = -57.9622685;
-    var ciudadclim;
+   
     var paisselec;
     var nombre = document.querySelector('.Nombre');
     var temact = document.querySelector('.Temact');
@@ -141,3 +121,20 @@ function principal(){
                
     }
     
+
+      
+
+
+
+}
+function iniciarMap(latt,lngg){
+    var coord = {lat:latt ,lng: lngg};
+    var map = new google.maps.Map(document.getElementById('map'),{
+      zoom: 5,
+      center: coord
+    });
+    var marker = new google.maps.Marker({
+      position: coord,
+      map: map
+    });
+}
